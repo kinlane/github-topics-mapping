@@ -74,11 +74,33 @@ title: 'Github Topic Mapping To API Evangelist Research'
 </ul>
 <p>I know of a number of projects that should be tagged and aded to the area of API design, as well as have a number of sub areas I'd like to included as relevant API design tags.</p>
 
-<!-- Testing -->
-<p><strong>API Testing</strong> - There was only API design related item, but is something I expect to expand rapidly as I dive into this area further.</p>
+<!-- Portal -->
+<p><strong>API Portal</strong> - There was only API design related item, but is something I expect to expand rapidly as I dive into this area further.</p>
 <ul>
 {% for map in site.data.mapping %}
-{% if map.research == 'testing' %}
+{% if map.research == 'portal' %}
+<li><strong>{{ map.topic }}</strong> (<a href="https://github.com/search?q=topic%3A{{ map.topic }}&type=Repositories" style="font-size: 11px;" target="_blank">search via Github topics</a>)</li>
+{% endif %}
+{% endfor %}
+</ul>
+<p>I know of a number of projects that should be tagged and aded to the area of API design, as well as have a number of sub areas I'd like to included as relevant API design tags.</p>
+
+<!-- Discovery -->
+<p><strong>API Discovery</strong> - There was only API design related item, but is something I expect to expand rapidly as I dive into this area further.</p>
+<ul>
+{% for map in site.data.mapping %}
+{% if map.research == 'discovery' %}
+<li><strong>{{ map.topic }}</strong> (<a href="https://github.com/search?q=topic%3A{{ map.topic }}&type=Repositories" style="font-size: 11px;" target="_blank">search via Github topics</a>)</li>
+{% endif %}
+{% endfor %}
+</ul>
+<p>I know of a number of projects that should be tagged and aded to the area of API design, as well as have a number of sub areas I'd like to included as relevant API design tags.</p>
+
+<!-- Discovery -->
+<p><strong>API Discovery</strong> - There was only API design related item, but is something I expect to expand rapidly as I dive into this area further.</p>
+<ul>
+{% for map in site.data.mapping %}
+{% if map.research == 'discovery' %}
 <li><strong>{{ map.topic }}</strong> (<a href="https://github.com/search?q=topic%3A{{ map.topic }}&type=Repositories" style="font-size: 11px;" target="_blank">search via Github topics</a>)</li>
 {% endif %}
 {% endfor %}

@@ -1,12 +1,15 @@
 ---
 layout: page
-title: 'Github Topic Mappings'
+title: 'Github Topic Mapping To API Evangelist Research'
 ---
 
+<h1>Github Topic Mapping To API Evangelist Research</h1>
 <p>I was playing around with the <a href="https://github.com/blog/2309-introducing-topics">new Github topics</a>, and found it to provide an interesting look at the API space, one that I'm hoping will continue to evolve.</p>
 <p>I typed 'api-' into Github's topic tagging tool for my responsitory, and after I tagged each of my research areas with appropriate tags, I set out exploring these layers of Github by clicking on each tag. It is something that became quite a wormhole of API exploration.</p>
 <p>I had to put down, as I could spend hours looking through the repositories, but I wanted to create a machine readable mapping to my existing API research areas, that I could use to regularly keep an eye on these slices of the Github pie.</p>
-<p><strong>Definitions</strong> - These are the topics I'm adding to my monitoring of the API space when it cmoes to API definitions.</p>
+
+<!-- Definitions-->
+<p><strong>Definitions</strong> - These are the topics I'm adding to my monitoring of the API space when it comes to API definitions. I thought it was interesting how folks are using Github to manage their API definitions.</p>
 <ul>
 {% for map in site.data.mapping %}
 {% if map.research == 'definitions' %}
@@ -14,3 +17,15 @@ title: 'Github Topic Mappings'
 {% endif %}
 {% endfor %}
 </ul>
+<p>I like how OpenAPI is starting to branch out into separate areas, as well as how this area touches on almost all the other areas present here. I am going to work to keep shaping the tags present based upon the definitions, templates, and tooling I find on Github.</p>
+
+<!-- Definitions-->
+<p><strong>Design</strong> - There was only API design related item, but is something I expect to expand rapidly as I dive into this area further.</p>
+<ul>
+{% for map in site.data.mapping %}
+{% if map.research == 'definitions' %}
+<li><strong>{{ map.topic }}</strong> (<a href="https://github.com/search?q=topic%3A{{ map.topic }}&type=Repositories" style="font-size: 10px;">search via Github topics</a>)</li>
+{% endif %}
+{% endfor %}
+</ul>
+<p>I know of a number of projects that should be tagged and aded to the area of API design, as well as have a number of sub areas I'd like to included as relevant API design tags.</p>

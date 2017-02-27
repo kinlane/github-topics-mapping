@@ -1,0 +1,14 @@
+---
+layout: page
+title: 'Github Topic Mappings'
+---
+
+<p><strong>Definitions</strong></p>
+<p>These are the topics I'm adding to my monitoring of the API space when it cmoes to API definitions.</p>
+{% for map in site.data.mapping %}
+<ul>
+{% if map.research == 'definitions' %}
+  <li><strong>{{ map.topic }}</strong> - <a href="https://github.com/search?q=topic%3A{{ map.topic }}&type=Repositories">Search on Github Topics</a></li>
+{% endif %}
+</ul>
+{% endfor %}

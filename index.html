@@ -8,7 +8,7 @@ title: 'Github Topic Mappings'
 {% for map in site.data.mapping %}
 <ul>
 {% if map.research == 'definitions' %}
-  <li><strong>{{ map.topic }}</strong> - <a href="https://github.com/search?q=topic%3A{{ map.topic }}&type=Repositories">Search on Github Topics</a></li>
+  <li style="padding: 1px; margin: 1px;"><strong>{{ map.topic }}</strong> - <a href="https://github.com/search?q=topic%3A{{ map.topic }}&type=Repositories">Search on Github Topics</a></li>
 {% endif %}
 </ul>
 {% endfor %}

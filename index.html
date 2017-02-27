@@ -3,12 +3,11 @@ layout: page
 title: 'Github Topic Mappings'
 ---
 
-<p><strong>Definitions</strong></p>
-<p>These are the topics I'm adding to my monitoring of the API space when it cmoes to API definitions.</p>
-<ul style="">
+<p><strong>Definitions</strong> - These are the topics I'm adding to my monitoring of the API space when it cmoes to API definitions.</p>
+<ul>
 {% for map in site.data.mapping %}
 {% if map.research == 'definitions' %}
-<li style=""><strong>{{ map.topic }}</strong> (<a href="https://github.com/search?q=topic%3A{{ map.topic }}&type=Repositories" style="font-size: 10px;">see via Github topics</a>_</li>
+<li><strong>{{ map.topic }}</strong> (<a href="https://github.com/search?q=topic%3A{{ map.topic }}&type=Repositories" style="font-size: 10px;">see via Github topics</a>_</li>
 {% endif %}
 {% endfor %}
 </ul>

@@ -1,6 +1,6 @@
 title:        Github Topic Mapping
 url:          http://github.topics.mapping.apievangelist.com
-logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-getting-started.png
+logo:         https://kinlane-productions.s3.amazonaws.com/api-evangelist/api-evangelist-logo-400.png
 logo_width:   80
 logo_bottom_padding: 10
 
@@ -16,8 +16,8 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 paginate: 150
 paginate_path: "/blog/page:num"
 
-org: api-evangelist
-repo: getting-started
+org: kinlane
+repo: github-topics-mapping
 
 # Masthead title
 masthead_link: http://github.topics.mapping.apievangelist.com

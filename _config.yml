@@ -1,5 +1,5 @@
 title:        Github Topic Mapping
-url:          http://github.topic.apievangelist.com
+url:          http://github.topics.mapping.apievangelist.com
 logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-getting-started.png
 logo_width:   80
 logo_bottom_padding: 10
@@ -20,7 +20,7 @@ org: api-evangelist
 repo: getting-started
 
 # Masthead title
-masthead_link: http://github.topic.apievangelist.com
+masthead_link: http://github.topics.mapping.apievangelist.com
 masthead_font_size: 90
 masthead_title: '{"Github Topic Mapping"}'
 

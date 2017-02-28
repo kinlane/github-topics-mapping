@@ -12,6 +12,18 @@
   research: definitions
 - topic: api-transformer
   research: definitions
+- topic: swagger
+  research: definitions
+- topic: swagger-ui
+  research: definitions
+- topic: swagger-specification
+  research: definitions
+- topic: swagger-codegen
+  research: sdk
+- topic: swagger2
+  research: definitions
+- topic: swagger2
+  research: spec
 - topic: openapi
   research: definitions
 - topic: openapi-specification
